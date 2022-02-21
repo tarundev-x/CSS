@@ -1,0 +1,134 @@
+1------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        li{
+            color:blue;
+        }
+        p{
+            color:black;
+        }
+        .odd{
+            color:green;
+        }
+        #para{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:red;background-color: yellow;">Element selector</h1>
+    <p id="para">Types of Selector:</p>
+    <ul>
+        <li class="odd">Element selector</li>
+        <li>Class selectoor</li>
+        <li class="odd">ID selector</li>
+        <li>Grouping selector</li>
+        <li class="odd">Nesting selector</li>
+        <li>Chaining selector</li>
+
+    </ul>
+</body>
+</html>
+
+2----------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        h1,p{
+            color:red;
+            background-color: yellow;
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <h1>Grouping selector</h1>
+    <p id>Types of Selector:</p>
+    <ul>
+        <li >Element selector</li>
+        <li>Class selectoor</li>
+        <li >ID selector</li>
+        <li>Grouping selector</li>
+        <li>Nesting selector</li>
+        <li>Chaining selector</li>
+
+    </ul>
+</body>
+</html>
+
+3--------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+      div>h1{
+          color:red;
+      }
+       
+    </style>
+</head>
+<body>
+    <h1>Nesting selectors</h1>
+    <div>
+        <h1>Types of Selector:</h1>
+    </div>
+    <ul>
+        <li >Element selector</li>
+        <li>Class selectoor</li>
+        <li >ID selector</li>
+        <li>Grouping selector</li>
+        <li>Nesting selector</li>
+        <li>Chaining selector</li>
+
+    </ul>
+</body>
+</html>
+
+4----------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaining selector in CSS</title>
+    <style>
+        h2.heading{
+            background-color: orange;
+        }
+        h1.heading{
+        font-size: 100px;    
+        }
+        h3.heading{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">GeeksforGeeks</h1>
+    <h2 class="heading">GeeksfroGeeks</h2>
+    <h3 class="heading">GeeksfroGeeks</h3>
+</body>
+</html>
